@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#FF4B00</color>
+    <color name="colorAccent">#7984EB</color>
+    <color name="AppColor1">#FF4B00</color>
+    <color name="AppColor2">#7984EB</color>
+    <color name="AppColor2Transparent40">#667984EB</color>
+    <color name="Blue600">#1E88E5</color>
+    <color name="Blue600Transarent25">#401E88E5</color>
+    <color name="RedA700">#D50000</color>
+    <color name="GreenA700">#00C853</color>
+</resources>

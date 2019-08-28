@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="2.5dp">
+        <TextView
+            android:id="@+id/ill_medicine_listview_medicinename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine Name"
+            android:textSize="17.5dp"
+            android:textIsSelectable="true"
+            android:textColor="@color/AppColor2"/>
+        <TextView
+            android:id="@+id/ill_medicine_listview_directionsforuse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Directions For Use"
+            android:textColor="@android:color/black"
+            android:textIsSelectable="true"
+            android:textSize="15sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İlaca Başlangıç Tarihi : "
+                android:textColor="@android:color/black"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/ill_medicine_listview_startdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gg/MM/yyyy"
+                android:textColor="@color/RedA700"
+                android:layout_marginLeft="2.5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/ill_medicine_listview_delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sil"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:background="@drawable/exit_red_background"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/ill_medicine_listview_edit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Düzenle"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:background="@drawable/enter_green_background"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
